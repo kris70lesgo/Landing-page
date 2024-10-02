@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    padding: 5px 20%;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.logo {
+    color: aliceblue;
+    font-size: 30px;
+}
+.header-link {
+    display: flex; /* Makes the links display side by side */
+    gap: 10px; /* Adds space between each link */
+    list-style-type: none; /* Removes bullet points */
+    margin: 0; /* Removes extra margin */
+    padding: 0; /* Removes padding */
+    color: aliceblue;
+}
+
+.header-link li {
+    margin-left: 20px; /* Adds a margin between each list item */
+    
+}
+a {
+    color: aliceblue;
+}
+.hero {
+    background-color: #1F2937;
+    padding: 5px 20%;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+}
+.titletext {
+    font-size: 50px;
+
+ 
+}
+.sec-text {
+    padding:0px 20%;
+    display: flex;
+    justify-content: flex-start;
+}
+button {
+    background-color: deepskyblue;
+    color: aliceblue;
+    border-radius: 12px;
+    border: none;
+    width: 100px;
+    height: 50px;
+}
+.image {
+    max-width: 150px; /* Set max width to control size */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 20px; /* Add space between text and image */
+}
+.iheader {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    color: #1F2937;
+
+}
+.icontainer {
+    display: flex;
+}
+.item {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    align-items: center; /* Center-align the content */
+    margin: 10px; /* Add some margin around each box */
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+.img-info {
+    border-color: blue;
+    border-radius: 10px;
+}
+.text {
+    padding: 10%;
+}
+.quotetxt {
+    padding: 5px 20%;
+    background-color: #4c5158;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+#quote {
+    font-style: italic;
+    font-size: larger;
+    font-weight: 200;
+
+}
+#thor {
+    text-align: right;
+    padding: 5px 10%;
+}
+.comm {
+    background-color: #3882f6;
+    color: #f9faf8;
+    box-sizing: border-box;
+    padding: 2% 5%;
+    border-radius: 4px;
+    width: 750px;
+    height: auto;
+    margin: 20px auto;            /* This centers the element horizontally */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#button2 {
+    border-color: rgb(0, 0, 0);
+}
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    font-size: large;
+    justify-content: center;
+    color: aliceblue;
+}
